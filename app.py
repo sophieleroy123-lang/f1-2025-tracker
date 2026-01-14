@@ -16,7 +16,7 @@ if page == "🏠 Accueil":
     with col1: st.metric("Courses", "24/24", "100%")
     with col2: st.metric("Champion Pilotes", "Lando Norris", "🇬🇧 McLaren")
     with col3: st.metric("Champion Constructeurs", "McLaren", "623 pts")
-    with col4: st.metric("Victoires McLaren", "12", "50%")
+    with col4: st.metric("Victoires McLaren", "14", "58%")
 
 elif page == "🏆 Pilotes":
     exec(open('pages/01_pilotes.py').read())
